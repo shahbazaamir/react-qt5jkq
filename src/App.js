@@ -9,7 +9,7 @@ export default function App() {
   useEffect(() => {
     // Update the document title using the browser API
     document.title = `You clicked ${count} times`;
-    console.log(fdb.ref("/subject"));
+    console.log(fdb.ref("/question"));
     setCount(5);
   });
 
